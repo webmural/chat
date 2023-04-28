@@ -1,0 +1,26 @@
+::selection {
+  background: hotpink;
+  color: black;
+}
+
+:root {
+  color: seashell;
+  background: mediumvioletred;
+}
+
+:any-link {
+  color: mistyrose;
+  text-decoration-style: double;
+  text-shadow:
+    -1vh 0 0 crimson,
+    1vw 1vh 0 crimson,
+    1vw -1vh 0 crimson;
+}
+
+:focus {
+  outline: thick double;
+  text-shadow:
+    -3vh 0 0 hotpink,
+    2vw 2vh 0 hotpink,
+    2vw -2vh 0 hotpink;
+}
